@@ -35,7 +35,6 @@ This project deals with search algorithms in AI. The implemented search algorith
   <li><a href="#q6-3-pts-corners-problem-heuristic-lecture-3" id="markdown-toc-q6-3-pts-corners-problem-heuristic-lecture-3">Q6 (3 pts): Corners Problem: Heuristic (Lecture 3)</a></li>
   <li><a href="#q7-4-pts-eating-all-the-dots" id="markdown-toc-q7-4-pts-eating-all-the-dots">Q7 (4 pts): Eating All The Dots</a></li>
   <li><a href="#q8-3-pts-suboptimal-search" id="markdown-toc-q8-3-pts-suboptimal-search">Q8 (3 pts): Suboptimal Search</a></li>
-  <li><a href="#submission" id="markdown-toc-submission">Submission</a></li>
 </ul><hr>
 <h2 id="introduction">
   
@@ -53,7 +52,7 @@ This project deals with search algorithms in AI. The implemented search algorith
 </code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div>
 
 
-<p>The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files as a <a href="/~cs188/fa24/assets/projects/search.zip">search.zip</a>.</p>
+The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files as a [search.zip](https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/search.zip).
 
 <div class="table-wrapper"><table>
     <tbody>
