@@ -13,22 +13,11 @@ You can also work through the problems yourself! The project description also sh
 This project deals with search algorithms in AI. The implemented search algorithms will help Pacman traverse through the game board.
 
 #### This project covers:
-
-Depth First Search
-Breadth First Search
-Uniform Cost Search
-A* Search
-Heuristic Techniques
-
-<div class="main-content-wrap">
-      <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-  <ol class="breadcrumb-nav-list">
-    <li class="breadcrumb-nav-list-item"><a href="/~cs188/fa24/projects/">Projects</a></li>
-    <li class="breadcrumb-nav-list-item"><span>Project 1</span></li>
-  </ol>
-</nav>
-      <div id="main-content" class="main-content">
-        <main>
+- Depth First Search
+- Breadth First Search
+- Uniform Cost Search
+- A* Search
+- Heuristic Techniques
       
 
 ![Pacman in a maze](https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/maze.png)
