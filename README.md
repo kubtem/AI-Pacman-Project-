@@ -29,35 +29,10 @@ Heuristic Techniques
 </nav>
       <div id="main-content" class="main-content">
         <main>
-          
-            <h1 class="no_toc" id="project-1-search">
-  
-  
-    <a href="#project-1-search" class="anchor-heading" aria-labelledby="project-1-search"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Project 1: Search
-  
-  
-</h1>
-    
+      
 
-<div style="text-align:center;">
-Due: <b>Friday, September 13, 5pm PM PT</b>.
-</div><hr>
+![Pacman in a maze](https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/maze.png)
 
-<p><img style="display:block;margin-left:auto;margin-right:auto;width:400px" alt="Pacman in a maze" src="/~cs188/fa24/assets/projects/maze.png"></p>
-
-<div style="text-align:center;">
-All those colored walls,<br>
-Mazes give Pacman the blues,<br>
-So teach him to search.
-</div><hr>
-<h2 class="no_toc text-delta" id="table-of-contents">
-  
-  
-    <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of contents
-  
-  
-</h2>
-    
 
 <ul id="markdown-toc">
   <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
