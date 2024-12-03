@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Artificial-Intelligence
+=======
+# Berkeley CS188 Artificial Intelligence Pacman Project 1
+>>>>>>> 4e55eaf5a9162347f3c958db36154a10f10176da
 Solutions to projects in Berkeley CS188 Artificial Intelligence
 
 This was a course at edx.org as an introduction to artificial intelligence. This repo contains solutions to the three projects assigned. Each project is showcased as a Pacman game where the student implements algorithms to win the game.
