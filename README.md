@@ -133,11 +133,8 @@ The code for this project consists of several Python files, some of which you wi
   </table></div>
 
 <p><strong>Discussion:</strong> Please be careful not to post spoilers.</p><hr>
-<h2 id="welcome-to-pacman">
-
-</h2>
+<h2 id="welcome-to-pacman"> </h2>
     
-
 <p>After downloading the code, unzipping it, and changing to the directory, you should be able to play a game of Pacman by typing the following at the command line:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python pacman.py
