@@ -180,7 +180,7 @@ The code for this project consists of several Python files, some of which you wi
 <h2 id="q1-3-pts-finding-a-fixed-food-dot-using-depth-first-search-lecture-2">
   
   
-# Q1 (3 pts): Finding a Fixed Food Dot using Depth First Search (Lecture 2)
+# Question 1 : Finding a Fixed Food Dot using Depth First Search 
   
 <p>In <code class="language-plaintext highlighter-rouge">searchAgents.py</code>, you’ll find a fully implemented <code class="language-plaintext highlighter-rouge">SearchAgent</code>, which plans out a path through Pacman’s world and then executes that path step-by-step. The search algorithms for formulating a plan are not implemented – that’s your job.</p>
 
@@ -218,7 +218,7 @@ python pacman.py <span class="nt">-l</span> bigMaze <span class="nt">-z</span> .
 </code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div><hr>
 <h2 id="q2-3-pts-breadth-first-search-lecture-2">
   
-# Q2 (3 pts): Breadth First Search (Lecture 2)
+# Question 2 : Breadth First Search
 
 <p>Implement the breadth-first search (BFS) algorithm in the <code class="language-plaintext highlighter-rouge">breadthFirstSearch</code> function in <code class="language-plaintext highlighter-rouge">search.py</code>. Again, write a graph search algorithm that avoids expanding any already visited states. Test your code the same way you did for depth-first search.</p>
 
@@ -242,7 +242,7 @@ python pacman.py <span class="nt">-l</span> bigMaze <span class="nt">-p</span> S
 <h2 id="q3-3-pts-varying-the-cost-function-lecture-2">
  
   
-# Q3 (3 pts): Varying the Cost Function (Lecture 2)
+# QQuestion 3 : Varying the Cost Function 
 
 <p>While BFS will find a fewest-actions path to the goal, we might want to find paths that are “best” in other senses. Consider <code class="language-plaintext highlighter-rouge">mediumDottedMaze</code> and <code class="language-plaintext highlighter-rouge">mediumScaryMaze</code>.</p>
 
@@ -264,7 +264,7 @@ python pacman.py <span class="nt">-l</span> mediumScaryMaze <span class="nt">-p<
 <h2 id="q4-3-pts-a-search-lecture-3">
   
   
-# Q4 (3 pts): A* search (Lecture 3)
+# Question 4 : A* search 
 
 <p>Implement A* search in the empty function <code class="language-plaintext highlighter-rouge">aStarSearch</code> in <code class="language-plaintext highlighter-rouge">search.py</code>. A* takes a heuristic function as an argument. Heuristics take two arguments: a state in the search problem (the main argument), and the problem itself (for reference information). The <code class="language-plaintext highlighter-rouge">nullHeuristic</code> heuristic function in <code class="language-plaintext highlighter-rouge">search.py</code> is a trivial example.</p>
 
@@ -284,11 +284,7 @@ python pacman.py <span class="nt">-l</span> mediumScaryMaze <span class="nt">-p<
 <h2 id="q5-3-pts-finding-all-the-corners-lecture-3">
   
   
-    <a href="#q5-3-pts-finding-all-the-corners-lecture-3" class="anchor-heading" aria-labelledby="q5-3-pts-finding-all-the-corners-lecture-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Q5 (3 pts): Finding All the Corners (Lecture 3)
-  
-  
-</h2>
-    
+# Question 5 : Finding All the Corners
 
 <p>The real power of A* will only be apparent with a more challenging search problem. Now, it’s time to formulate a new problem and design a heuristic for it.</p>
 
@@ -320,12 +316,7 @@ python pacman.py <span class="nt">-l</span> mediumCorners <span class="nt">-p</s
 </code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div><hr>
 <h2 id="q6-3-pts-corners-problem-heuristic-lecture-3">
   
-  
-    <a href="#q6-3-pts-corners-problem-heuristic-lecture-3" class="anchor-heading" aria-labelledby="q6-3-pts-corners-problem-heuristic-lecture-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Q6 (3 pts): Corners Problem: Heuristic (Lecture 3)
-  
-  
-</h2>
-    
+# Question 6 : Corners Problem: Heuristic
 
 <p><em>Note</em>: Make sure to complete Question 4 before working on Question 6, because Question 6 builds upon your answer for Question 4.</p>
 
@@ -376,12 +367,7 @@ python pacman.py <span class="nt">-l</span> mediumCorners <span class="nt">-p</s
 </code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div><hr>
 <h2 id="q7-4-pts-eating-all-the-dots">
   
-  
-    <a href="#q7-4-pts-eating-all-the-dots" class="anchor-heading" aria-labelledby="q7-4-pts-eating-all-the-dots"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Q7 (4 pts): Eating All The Dots
-  
-  
-</h2>
-    
+# Question 7 : Eating All The Dots  
 
 <p>Now we’ll solve a hard search problem: eating all the Pacman food in as few steps as possible. For this, we’ll need a new search problem definition which formalizes the food-clearing problem: <code class="language-plaintext highlighter-rouge">FoodSearchProblem</code> in <code class="language-plaintext highlighter-rouge">searchAgents.py</code> (implemented for you). A solution is defined to be a path that collects all of the food in the Pacman world. For the present project, solutions do not take into account any ghosts or power pellets; solutions only depend on the placement of walls, regular food and Pacman. (Of course ghosts can ruin the execution of a solution! We’ll get to that in the next project.) If you have written your general search methods correctly, A* with a null heuristic (equivalent to uniform-cost search) should quickly find an optimal solution to <code class="language-plaintext highlighter-rouge">testSearch</code> with no code change on your part (total cost of 7).</p>
 
@@ -442,11 +428,7 @@ python pacman.py <span class="nt">-l</span> mediumCorners <span class="nt">-p</s
 <h2 id="q8-3-pts-suboptimal-search">
   
   
-    <a href="#q8-3-pts-suboptimal-search" class="anchor-heading" aria-labelledby="q8-3-pts-suboptimal-search"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Q8 (3 pts): Suboptimal Search
-  
-  
-</h2>
-    
+# Question 8 : Suboptimal Search 
 
 <p>Sometimes, even with A* and a good heuristic, finding the optimal path through all the dots is hard. In these cases, we’d still like to find a reasonably good path, quickly. In this section, you’ll write an agent that always greedily eats the closest dot. <code class="language-plaintext highlighter-rouge">ClosestDotSearchAgent</code> is implemented for you in <code class="language-plaintext highlighter-rouge">searchAgents.py</code>, but it’s missing a key function that finds a path to the closest dot.</p>
 
