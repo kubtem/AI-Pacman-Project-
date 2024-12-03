@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Artificial-Intelligence
 =======
 # Berkeley CS188 Artificial Intelligence Pacman Project 1
