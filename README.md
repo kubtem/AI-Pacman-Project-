@@ -133,7 +133,8 @@ The code for this project consists of several Python files, some of which you wi
   </table></div>
 
 <p><strong>Discussion:</strong> Please be careful not to post spoilers.</p><hr>
-<h2 id="welcome-to-pacman"> </h2>
+
+# Welcome to Pacman
     
 <p>After downloading the code, unzipping it, and changing to the directory, you should be able to play a game of Pacman by typing the following at the command line:</p>
 
@@ -162,14 +163,8 @@ The code for this project consists of several Python files, some of which you wi
 </code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div>
 
 <p>Also, all of the commands that appear in this project also appear in <code class="language-plaintext highlighter-rouge">commands.txt</code>, for easy copying and pasting. In UNIX/Mac OS X, you can even run all these commands in order with <code class="language-plaintext highlighter-rouge">bash commands.txt</code>.</p><hr>
-<h2 id="new-syntax">
-  
-  
-    <a href="#new-syntax" class="anchor-heading" aria-labelledby="new-syntax"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> New Syntax
-  
-  
-</h2>
-    
+
+# New Syntax
 
 <p>You may not have seen this syntax before:</p>
 
@@ -185,12 +180,8 @@ The code for this project consists of several Python files, some of which you wi
 <h2 id="q1-3-pts-finding-a-fixed-food-dot-using-depth-first-search-lecture-2">
   
   
-    <a href="#q1-3-pts-finding-a-fixed-food-dot-using-depth-first-search-lecture-2" class="anchor-heading" aria-labelledby="q1-3-pts-finding-a-fixed-food-dot-using-depth-first-search-lecture-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Q1 (3 pts): Finding a Fixed Food Dot using Depth First Search (Lecture 2)
+# Q1 (3 pts): Finding a Fixed Food Dot using Depth First Search (Lecture 2)
   
-  
-</h2>
-    
-
 <p>In <code class="language-plaintext highlighter-rouge">searchAgents.py</code>, you’ll find a fully implemented <code class="language-plaintext highlighter-rouge">SearchAgent</code>, which plans out a path through Pacman’s world and then executes that path step-by-step. The search algorithms for formulating a plan are not implemented – that’s your job.</p>
 
 <p>First, test that the <code class="language-plaintext highlighter-rouge">SearchAgent</code> is working correctly by running:</p>
@@ -227,12 +218,7 @@ python pacman.py <span class="nt">-l</span> bigMaze <span class="nt">-z</span> .
 </code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div><hr>
 <h2 id="q2-3-pts-breadth-first-search-lecture-2">
   
-  
-    <a href="#q2-3-pts-breadth-first-search-lecture-2" class="anchor-heading" aria-labelledby="q2-3-pts-breadth-first-search-lecture-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Q2 (3 pts): Breadth First Search (Lecture 2)
-  
-  
-</h2>
-    
+# Q2 (3 pts): Breadth First Search (Lecture 2)
 
 <p>Implement the breadth-first search (BFS) algorithm in the <code class="language-plaintext highlighter-rouge">breadthFirstSearch</code> function in <code class="language-plaintext highlighter-rouge">search.py</code>. Again, write a graph search algorithm that avoids expanding any already visited states. Test your code the same way you did for depth-first search.</p>
 
@@ -254,13 +240,9 @@ python pacman.py <span class="nt">-l</span> bigMaze <span class="nt">-p</span> S
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python autograder.py <span class="nt">-q</span> q2
 </code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div><hr>
 <h2 id="q3-3-pts-varying-the-cost-function-lecture-2">
+ 
   
-  
-    <a href="#q3-3-pts-varying-the-cost-function-lecture-2" class="anchor-heading" aria-labelledby="q3-3-pts-varying-the-cost-function-lecture-2"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Q3 (3 pts): Varying the Cost Function (Lecture 2)
-  
-  
-</h2>
-    
+# Q3 (3 pts): Varying the Cost Function (Lecture 2)
 
 <p>While BFS will find a fewest-actions path to the goal, we might want to find paths that are “best” in other senses. Consider <code class="language-plaintext highlighter-rouge">mediumDottedMaze</code> and <code class="language-plaintext highlighter-rouge">mediumScaryMaze</code>.</p>
 
@@ -282,11 +264,7 @@ python pacman.py <span class="nt">-l</span> mediumScaryMaze <span class="nt">-p<
 <h2 id="q4-3-pts-a-search-lecture-3">
   
   
-    <a href="#q4-3-pts-a-search-lecture-3" class="anchor-heading" aria-labelledby="q4-3-pts-a-search-lecture-3"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Q4 (3 pts): A* search (Lecture 3)
-  
-  
-</h2>
-    
+# Q4 (3 pts): A* search (Lecture 3)
 
 <p>Implement A* search in the empty function <code class="language-plaintext highlighter-rouge">aStarSearch</code> in <code class="language-plaintext highlighter-rouge">search.py</code>. A* takes a heuristic function as an argument. Heuristics take two arguments: a state in the search problem (the main argument), and the problem itself (for reference information). The <code class="language-plaintext highlighter-rouge">nullHeuristic</code> heuristic function in <code class="language-plaintext highlighter-rouge">search.py</code> is a trivial example.</p>
 
