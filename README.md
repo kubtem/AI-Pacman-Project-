@@ -39,8 +39,7 @@ This project deals with search algorithms in AI. The implemented search algorith
 </ul><hr>
 <h2 id="introduction">
   
-  
-    <a href="#introduction" class="anchor-heading" aria-labelledby="introduction"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction
+# Introduction
   
   
 </h2>
