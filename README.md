@@ -1,7 +1,7 @@
 # Artificial-Intelligence
 Solutions to projects in Berkeley CS188 Artificial Intelligence
 
-This was a free course offered at edx.org as an introduction to artificial intelligence. This repo contains solutions to the three projects assigned. Each project is showcased as a Pacman game where the student implements algorithms to win the game.
+This was a course at edx.org as an introduction to artificial intelligence. This repo contains solutions to the three projects assigned. Each project is showcased as a Pacman game where the student implements algorithms to win the game.
 
 After cloning this repo, you can follow the links of each project to find in each project folder where the algorithms are implemented. All of the solutions are implemented by me and can be found under: "*** YOUR CODE HERE ***" of specific files.
 
@@ -19,7 +19,6 @@ This project deals with search algorithms in AI. The implemented search algorith
 - A* Search
 - Heuristic Techniques
       
-
 ![Pacman in a maze](https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/maze.png)
 
 
