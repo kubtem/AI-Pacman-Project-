@@ -19,8 +19,7 @@ Breadth First Search
 Uniform Cost Search
 A* Search
 Heuristic Techniques
-<p>In this project, your Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. You will build general search algorithms and apply them to Pacman scenarios.</p>
-<code>python autograder.py</code>
+
 <div class="main-content-wrap">
       <nav aria-label="Breadcrumb" class="breadcrumb-nav">
   <ol class="breadcrumb-nav-list">
@@ -85,12 +84,11 @@ So teach him to search.
 
 <p>In this project, your Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. You will build general search algorithms and apply them to Pacman scenarios.</p>
 
-<p>As in Project 0, this project includes an autograder for you to grade your answers on your machine. This can be run with the command:</p>
+<p>This project includes an autograder for you to grade your answers on your machine. This can be run with the command:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python autograder.py
 </code></pre></div><button type="button" aria-label="Copy code to clipboard"><svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg></button></div>
 
-<p>See the autograder tutorial in Project 0 for more information about using the autograder.</p>
 
 <p>The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files as a <a href="/~cs188/fa24/assets/projects/search.zip">search.zip</a>.</p>
 
@@ -171,14 +169,6 @@ So teach him to search.
       </tr>
     </tbody>
   </table></div>
-
-<p><strong>Files to Edit and Submit:</strong> You will fill in portions of <code class="language-plaintext highlighter-rouge">search.py</code> and <code class="language-plaintext highlighter-rouge">searchAgents.py</code> during the assignment. Once you have completed the assignment, you will submit these files to Gradescope (for instance, you can upload all <code class="language-plaintext highlighter-rouge">.py</code> files in the folder). Please do not change the other files in this distribution.</p>
-
-<p><strong>Evaluation:</strong> Your code will be autograded for technical correctness. Please do not change the names of any provided functions or classes within the code, or you will wreak havoc on the autograder. However, the correctness of your implementation – not the autograder’s judgements – will be the final judge of your score. If necessary, we will review and grade assignments individually to ensure that you receive due credit for your work.</p>
-
-<p><strong>Academic Dishonesty:</strong> We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else’s code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don’t try. We trust you all to submit your own work only; please don’t let us down. If you do, we will pursue the strongest consequences available to us.</p>
-
-<p><strong>Getting Help:</strong> You are not alone! If you find yourself stuck on something, contact the course staff for help. Office hours, section, and the discussion forum are there for your support; please use them. If you can’t make our office hours, let us know and we will schedule more. We want these projects to be rewarding and instructional, not frustrating and demoralizing. But, we don’t know when or how to help unless you ask.</p>
 
 <p><strong>Discussion:</strong> Please be careful not to post spoilers.</p><hr>
 <h2 id="welcome-to-pacman">
@@ -543,18 +533,7 @@ python pacman.py <span class="nt">-l</span> mediumCorners <span class="nt">-p</s
 <h2 id="submission">
   
   
-    <a href="#submission" class="anchor-heading" aria-labelledby="submission"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Submission
-  
-  
-</h2>
-    
 
-<p>In order to submit your project upload the Python files you edited. For instance, use Gradescope’s upload on all <code class="language-plaintext highlighter-rouge">.py</code> files in the project folder.</p>
-
-          
-
-          
-        </main>
         
 
   <hr>
