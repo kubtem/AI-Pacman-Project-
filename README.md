@@ -134,11 +134,7 @@ The code for this project consists of several Python files, some of which you wi
 
 <p><strong>Discussion:</strong> Please be careful not to post spoilers.</p><hr>
 <h2 id="welcome-to-pacman">
-  
-  
-    <a href="#welcome-to-pacman" class="anchor-heading" aria-labelledby="welcome-to-pacman"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Welcome to Pacman
-  
-  
+
 </h2>
     
 
